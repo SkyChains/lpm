@@ -1,4 +1,4 @@
-module github.com/luxdefi/lpm
+module github.com/skychains/lpm
 
 go 1.21
 
@@ -9,7 +9,7 @@ require (
 	github.com/go-git/go-git/v5 v5.11.0
 	github.com/golang/mock v1.6.0
 	github.com/juju/fslock v0.0.0-20160525022230-4d5c94c67b4b
-	github.com/luxdefi/node v1.10.21
+	github.com/skychains/chain v0.0.1
 	github.com/spf13/afero v1.11.0
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/viper v1.18.1
