@@ -10,9 +10,9 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/luxdefi/lpm/git"
-	"github.com/luxdefi/lpm/state"
-	"github.com/luxdefi/lpm/util"
+	"github.com/SkyChains/lpm/git"
+	"github.com/SkyChains/lpm/state"
+	"github.com/SkyChains/lpm/util"
 )
 
 var ErrAlreadyUpdated = errors.New("already up-to-date")

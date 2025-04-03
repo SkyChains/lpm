@@ -8,8 +8,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/luxdefi/lpm/constant"
-	"github.com/luxdefi/lpm/state"
+	"github.com/SkyChains/lpm/constant"
+	"github.com/SkyChains/lpm/state"
 )
 
 var _ Workflow = RemoveRepository{}

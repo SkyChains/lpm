@@ -12,20 +12,20 @@ import (
 	"syscall"
 	"text/tabwriter"
 
-	"github.com/luxdefi/node/utils/perms"
+	"github.com/SkyChains/chain/utils/perms"
 	"github.com/go-git/go-git/v5/plumbing"
 	"github.com/go-git/go-git/v5/plumbing/transport/http"
 	"github.com/juju/fslock"
 	"github.com/spf13/afero"
 
-	"github.com/luxdefi/lpm/admin"
-	"github.com/luxdefi/lpm/constant"
-	"github.com/luxdefi/lpm/engine"
-	"github.com/luxdefi/lpm/git"
-	"github.com/luxdefi/lpm/state"
-	"github.com/luxdefi/lpm/url"
-	"github.com/luxdefi/lpm/util"
-	"github.com/luxdefi/lpm/workflow"
+	"github.com/SkyChains/lpm/admin"
+	"github.com/SkyChains/lpm/constant"
+	"github.com/SkyChains/lpm/engine"
+	"github.com/SkyChains/lpm/git"
+	"github.com/SkyChains/lpm/state"
+	"github.com/SkyChains/lpm/url"
+	"github.com/SkyChains/lpm/util"
+	"github.com/SkyChains/lpm/workflow"
 )
 
 const (

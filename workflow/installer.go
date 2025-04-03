@@ -9,7 +9,7 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/luxdefi/lpm/url"
+	"github.com/SkyChains/lpm/url"
 )
 
 type Installer interface {

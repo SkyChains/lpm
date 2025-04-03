@@ -6,8 +6,8 @@ package engine
 import (
 	"fmt"
 
-	"github.com/luxdefi/lpm/state"
-	"github.com/luxdefi/lpm/workflow"
+	"github.com/SkyChains/lpm/state"
+	"github.com/SkyChains/lpm/workflow"
 )
 
 var _ workflow.Executor = &WorkflowEngine{}
