@@ -6,8 +6,8 @@ package engine
 import (
 	"fmt"
 
-	"github.com/SkyChains/lpm/state"
-	"github.com/SkyChains/lpm/workflow"
+	"github.com/skychains/lpm/state"
+	"github.com/skychains/lpm/workflow"
 )
 
 var _ workflow.Executor = &WorkflowEngine{}

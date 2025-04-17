@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/SkyChains/chain/utils/perms"
+	"github.com/skychains/chain/utils/perms"
 	"gopkg.in/yaml.v3"
 )
 

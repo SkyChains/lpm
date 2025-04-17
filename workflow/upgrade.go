@@ -8,8 +8,8 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/SkyChains/lpm/git"
-	"github.com/SkyChains/lpm/state"
+	"github.com/skychains/lpm/git"
+	"github.com/skychains/lpm/state"
 )
 
 type UpgradeConfig struct {

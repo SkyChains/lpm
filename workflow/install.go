@@ -10,11 +10,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/SkyChains/chain/utils/perms"
+	"github.com/skychains/chain/utils/perms"
 	"github.com/spf13/afero"
 
-	"github.com/SkyChains/lpm/checksum"
-	"github.com/SkyChains/lpm/state"
+	"github.com/skychains/lpm/checksum"
+	"github.com/skychains/lpm/state"
 )
 
 var _ Workflow = &Install{}

@@ -10,8 +10,8 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/SkyChains/lpm/git"
-	"github.com/SkyChains/lpm/types"
+	"github.com/skychains/lpm/git"
+	"github.com/skychains/lpm/types"
 )
 
 var (

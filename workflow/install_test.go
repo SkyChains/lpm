@@ -8,15 +8,15 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/SkyChains/chain/utils/perms"
+	"github.com/skychains/chain/utils/perms"
 	"github.com/golang/mock/gomock"
 	"github.com/spf13/afero"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/lpm/checksum"
-	"github.com/SkyChains/lpm/state"
-	"github.com/SkyChains/lpm/types"
+	"github.com/skychains/lpm/checksum"
+	"github.com/skychains/lpm/state"
+	"github.com/skychains/lpm/types"
 )
 
 func TestInstallExecute(t *testing.T) {

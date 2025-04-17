@@ -10,9 +10,9 @@ import (
 	"github.com/go-git/go-git/v5/plumbing/transport/http"
 	"github.com/spf13/afero"
 
-	"github.com/SkyChains/lpm/git"
-	"github.com/SkyChains/lpm/state"
-	"github.com/SkyChains/lpm/util"
+	"github.com/skychains/lpm/git"
+	"github.com/skychains/lpm/state"
+	"github.com/skychains/lpm/util"
 )
 
 var _ Workflow = &Update{}

@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/SkyChains/lpm/git"
+	"github.com/skychains/lpm/git"
 )
 
 var _ RepositoryFactory = repositoryFactory{}

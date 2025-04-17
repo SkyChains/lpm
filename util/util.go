@@ -6,7 +6,7 @@ package util
 import (
 	"strings"
 
-	"github.com/SkyChains/lpm/constant"
+	"github.com/skychains/lpm/constant"
 )
 
 func ParseQualifiedName(name string) (source string, plugin string) {

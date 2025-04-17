@@ -9,7 +9,7 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/SkyChains/lpm/cmd"
+	"github.com/skychains/lpm/cmd"
 )
 
 func main() {

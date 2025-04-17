@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/SkyChains/lpm/state"
+	"github.com/skychains/lpm/state"
 )
 
 func TestAddRepositoryExecute(t *testing.T) {

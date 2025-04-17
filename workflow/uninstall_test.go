@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/lpm/state"
-	"github.com/SkyChains/lpm/types"
+	"github.com/skychains/lpm/state"
+	"github.com/skychains/lpm/types"
 )
 
 func TestUninstallExecute(t *testing.T) {

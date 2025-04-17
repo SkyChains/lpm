@@ -11,7 +11,7 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/SkyChains/lpm/state"
+	"github.com/skychains/lpm/state"
 )
 
 var _ Workflow = &Uninstall{}

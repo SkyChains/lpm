@@ -12,20 +12,20 @@ import (
 	"syscall"
 	"text/tabwriter"
 
-	"github.com/SkyChains/chain/utils/perms"
+	"github.com/skychains/chain/utils/perms"
 	"github.com/go-git/go-git/v5/plumbing"
 	"github.com/go-git/go-git/v5/plumbing/transport/http"
 	"github.com/juju/fslock"
 	"github.com/spf13/afero"
 
-	"github.com/SkyChains/lpm/admin"
-	"github.com/SkyChains/lpm/constant"
-	"github.com/SkyChains/lpm/engine"
-	"github.com/SkyChains/lpm/git"
-	"github.com/SkyChains/lpm/state"
-	"github.com/SkyChains/lpm/url"
-	"github.com/SkyChains/lpm/util"
-	"github.com/SkyChains/lpm/workflow"
+	"github.com/skychains/lpm/admin"
+	"github.com/skychains/lpm/constant"
+	"github.com/skychains/lpm/engine"
+	"github.com/skychains/lpm/git"
+	"github.com/skychains/lpm/state"
+	"github.com/skychains/lpm/url"
+	"github.com/skychains/lpm/util"
+	"github.com/skychains/lpm/workflow"
 )
 
 const (

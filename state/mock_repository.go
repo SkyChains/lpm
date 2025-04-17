@@ -11,7 +11,7 @@ package state
 import (
 	reflect "reflect"
 
-	types "github.com/SkyChains/lpm/types"
+	types "github.com/skychains/lpm/types"
 	gomock "github.com/golang/mock/gomock"
 )
 

@@ -8,16 +8,16 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/utils/wrappers"
 	"github.com/go-git/go-git/v5/plumbing/transport/http"
 	"github.com/spf13/afero"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"gopkg.in/yaml.v3"
 
-	"github.com/SkyChains/lpm/lpm"
-	"github.com/SkyChains/lpm/config"
-	"github.com/SkyChains/lpm/constant"
+	"github.com/skychains/lpm/lpm"
+	"github.com/skychains/lpm/config"
+	"github.com/skychains/lpm/constant"
 )
 
 var (
@@ -48,7 +48,7 @@ func New(fs afero.Fs) (*cobra.Command, error) {
 
 	rootCmd.PersistentFlags().String(configFileKey, "", "path to configuration file for the lpm")
 	rootCmd.PersistentFlags().String(lpmPathKey, lpmDir, "path to the directory lpm creates its artifacts")
-	rootCmd.PersistentFlags().String(pluginPathKey, filepath.Join(goPath, "src", "github.com", "SkyChains", "chain", "build", "plugins"), "path to lux plugin directory")
+	rootCmd.PersistentFlags().String(pluginPathKey, filepath.Join(goPath, "src", "github.com", "skychains", "chain", "build", "plugins"), "path to lux plugin directory")
 	rootCmd.PersistentFlags().String(credentialsFileKey, "", "path to credentials file")
 	rootCmd.PersistentFlags().String(adminAPIEndpointKey, "127.0.0.1:9650/ext/admin", "endpoint for the lux admin api")
 

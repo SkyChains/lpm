@@ -6,7 +6,7 @@ package admin
 import (
 	"context"
 
-	adminapi "github.com/SkyChains/chain/api/admin"
+	adminapi "github.com/skychains/chain/api/admin"
 )
 
 var _ Client = &client{}

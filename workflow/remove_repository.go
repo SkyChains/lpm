@@ -8,8 +8,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/SkyChains/lpm/constant"
-	"github.com/SkyChains/lpm/state"
+	"github.com/skychains/lpm/constant"
+	"github.com/skychains/lpm/state"
 )
 
 var _ Workflow = RemoveRepository{}

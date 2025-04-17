@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-git/go-git/v5/plumbing"
 
-	"github.com/SkyChains/lpm/state"
+	"github.com/skychains/lpm/state"
 )
 
 var _ Workflow = AddRepository{}
